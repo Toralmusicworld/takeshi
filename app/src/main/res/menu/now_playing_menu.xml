@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_hide_now_playing"
+        android:icon="@drawable/ic_hidden"
+        android:title="Hide"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_equalizer_now_playing"
+        android:icon="@drawable/ic_equalizer"
+        android:title="Equalizer"
+        app:showAsAction="ifRoom" />
+</menu>
